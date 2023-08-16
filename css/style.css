@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+
+}
+
+body
+{
+    /* background-color: black;
+    color: white; */
+
+}
+
+
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.hero img 
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    /* filter: drop-shadow(50px 50px 0  rgb(1, 1, 1)) blur(5px); */
+    filter: blur(5px) brightness(30%);
+
+    
+}
+
+
+.container
+{
+    position: absolute;
+    height: 68vh;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    z-index: 999;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    /* background-color: rgba(255,255,255,0.2); */
+    /* backdrop-filter: blur(5px); */
+    /* columns: 2; */
+    display: grid;
+    grid-template-columns: 50% 40%;
+   
+}
+
+.left 
+{
+    /* border: 1px solid black; */
+    height: 68vh;
+}
+.left img 
+{
+    height: 100%;
+    width: 80%;
+}
+
+
+.right 
+{
+    padding-top: 5rem;
+}
+
+.outline 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-transform: uppercase;
+}
+
+.simple
+{
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.buttons
+{
+    margin-top: 2rem;
+}
+
+.l
+{
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid white;
+
+
+    background-color: rgb(80, 165, 132);
+}
+
+.l:hover , .s:hover
+{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(80, 165, 132);
+}
+.s
+{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+/* Container two */
+
+.box-container
+{
+    width: 80%;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+.container-two
+{
+    width: 70%;
+    /* height: ; */
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    row-gap: 1.5rem;
+    /* margin: 0 auto; */
+
+
+}
+
+.container-two h1 ,.box-container h1 
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.horizontal-grid-icons
+{
+    display: grid;
+    grid-template-columns:200px repeat(5,1fr);
+    grid-template-rows: 100px;
+}
+
+.box 
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container h1 
+{
+    padding: 2rem 0;
+}
+
+
+.track-list-container
+{
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+.s-container
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 20vh;    
+}
+
+.row
+{
+    height: auto;
+   
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+}
+
+.row>.left 
+{
+    display: flex;
+    /* height: inherit; */
+    border: 2px solid salmon;
+    height: fit-content;
+}
+
+
+.left>.one 
+{
+   
+
+}
+
+.left>.two
+{
+    
+}
+
+
+
+.left>.three
+{
+   
+}
+
+.row>.right 
+{
+    display: flex;
+    border: 2px solid red;
+    height: fit-content;
+    
+    
+}
+
+
